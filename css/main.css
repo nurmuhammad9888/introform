@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Fredoka+One&family=Inter:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E7E7E7;
+    font-family: 'Inter', 'Arial', sans-serif;
+}
+.container{
+    width: 1152px;
+    display: flex;
+    margin: 50px auto;
+}
+/* Form-left */
+.form-left{
+    width: 570px;
+    height: 640px;
+    background: url(../images/Rectangle\ 6.png);
+    border-radius: 20px;
+}
+.form-left >p:nth-child(1){
+    width: 178px;
+    height: 27px;
+    margin: 55px  0 0 60px;
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+    border: 1px solid #FFFFFF;
+    border-radius: 41px;
+}
+.form-left h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding: 65px 0  0 60px ; 
+}
+.form-left p:nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 25px 143px 0 60px;
+}
+.from-left-bottom{
+    width: 570px;
+    height: 80px;
+    background: #4DC490;
+    border-radius: 0px 0px 20px 20px;
+}
+.from-left-bottom p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 28px 142px;
+    margin: 198px 0 0 0;
+}
+
+/* Form-right */
+.form-right{
+    margin-left: 12px;
+    width: 570px;
+    height: 640px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.form-right h2{
+    padding: 55px 82px 0 60px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+.form-right input{
+    width: 450px;
+    height: 0px;
+    border: none;
+    border-bottom: 1px solid #555555;
+    margin: 35px 60px 0 60px;
+    padding: 14px 0;
+    outline: none;
+}
+input:focus{
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 2px solid #000000;
+}
+input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+.form-right button{
+    width: 450px;
+    height: 59px;
+    background: #655AF2;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 60px 63px 0 63px;
+    cursor: pointer;
+}
+.form-right >p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #555555;
+    margin: 8px 110px;
+}
